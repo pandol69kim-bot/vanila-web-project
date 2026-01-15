@@ -58,6 +58,7 @@
   --el-medium: 1.25rem;
   --el-wide: 2.5rem;
   --el-section-small: 3rem;
+  --el-section-mobile: 1.8rem;
 }
 
 /* Reset Style */
@@ -74,6 +75,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  _border: 1px solid;
 }
 
 ol,
