@@ -27,7 +27,7 @@ toggleMobileBtn = (e) => {
   target.classList.toggle('active');
   if (target.classList.contains('active')) {
     target.classList.remove('not-active');
-    mobileMenu.style.height = menuHeight + 'px';
+    mobileMenu.style.height = menuHeight + 20 + 'px';
   } else {
     target.classList.add('not-active');
     mobileMenu.style.height = 0;
